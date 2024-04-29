@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9AD37846-9376-45B8-BF76-913BA878028C}|Restuarant_POS\\Restuarant_POS.csproj|C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\restuarant_pos\\item\\orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AD37846-9376-45B8-BF76-913BA878028C}|Restuarant_POS\\Restuarant_POS.csproj|solutionrelative:restuarant_pos\\item\\orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AD37846-9376-45B8-BF76-913BA878028C}|Restuarant_POS\\Restuarant_POS.csproj|c:\\users\\dev. salty\\desktop\\wednesday\\restuarant_pos\\restuarant_pos\\item\\orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9AD37846-9376-45B8-BF76-913BA878028C}|Restuarant_POS\\Restuarant_POS.csproj|solutionrelative:restuarant_pos\\item\\orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AD37846-9376-45B8-BF76-913BA878028C}|Restuarant_POS\\Restuarant_POS.csproj|C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\restuarant_pos\\food\\foodform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9AD37846-9376-45B8-BF76-913BA878028C}|Restuarant_POS\\Restuarant_POS.csproj|c:\\users\\dev. salty\\desktop\\wednesday\\restuarant_pos\\restuarant_pos\\food\\foodform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9AD37846-9376-45B8-BF76-913BA878028C}|Restuarant_POS\\Restuarant_POS.csproj|solutionrelative:restuarant_pos\\food\\foodform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AD37846-9376-45B8-BF76-913BA878028C}|Restuarant_POS\\Restuarant_POS.csproj|C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\restuarant_pos\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9AD37846-9376-45B8-BF76-913BA878028C}|Restuarant_POS\\Restuarant_POS.csproj|solutionrelative:restuarant_pos\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9AD37846-9376-45B8-BF76-913BA878028C}|Restuarant_POS\\Restuarant_POS.csproj|C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\restuarant_pos\\food\\foodform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9AD37846-9376-45B8-BF76-913BA878028C}|Restuarant_POS\\Restuarant_POS.csproj|solutionrelative:restuarant_pos\\food\\foodform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9AD37846-9376-45B8-BF76-913BA878028C}|Restuarant_POS\\Restuarant_POS.csproj|C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\restuarant_pos\\food\\addnewfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,12 +19,12 @@
       "RelativeMoniker": "D:0:0:{9AD37846-9376-45B8-BF76-913BA878028C}|Restuarant_POS\\Restuarant_POS.csproj|solutionrelative:restuarant_pos\\food\\addnewfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AD37846-9376-45B8-BF76-913BA878028C}|Restuarant_POS\\Restuarant_POS.csproj|C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\restuarant_pos\\food\\foodform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9AD37846-9376-45B8-BF76-913BA878028C}|Restuarant_POS\\Restuarant_POS.csproj|solutionrelative:restuarant_pos\\food\\foodform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9AD37846-9376-45B8-BF76-913BA878028C}|Restuarant_POS\\Restuarant_POS.csproj|C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\restuarant_pos\\item\\orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9AD37846-9376-45B8-BF76-913BA878028C}|Restuarant_POS\\Restuarant_POS.csproj|solutionrelative:restuarant_pos\\item\\orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AD37846-9376-45B8-BF76-913BA878028C}|Restuarant_POS\\Restuarant_POS.csproj|C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\restuarant_pos\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AD37846-9376-45B8-BF76-913BA878028C}|Restuarant_POS\\Restuarant_POS.csproj|solutionrelative:restuarant_pos\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9AD37846-9376-45B8-BF76-913BA878028C}|Restuarant_POS\\Restuarant_POS.csproj|C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\restuarant_pos\\item\\orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD37846-9376-45B8-BF76-913BA878028C}|Restuarant_POS\\Restuarant_POS.csproj|solutionrelative:restuarant_pos\\item\\orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,49 +34,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "OrderForm.cs",
               "DocumentMoniker": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\Restuarant_POS\\Item\\OrderForm.cs",
               "RelativeDocumentMoniker": "Restuarant_POS\\Item\\OrderForm.cs",
               "ToolTip": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\Restuarant_POS\\Item\\OrderForm.cs",
               "RelativeToolTip": "Restuarant_POS\\Item\\OrderForm.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAlwFkAAAA6AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T07:59:46.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T07:59:46.639Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "OrderForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\Restuarant_POS\\Item\\OrderForm.cs",
               "RelativeDocumentMoniker": "Restuarant_POS\\Item\\OrderForm.cs",
               "ToolTip": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\Restuarant_POS\\Item\\OrderForm.cs [Design]",
               "RelativeToolTip": "Restuarant_POS\\Item\\OrderForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T02:10:02.947Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-28T02:10:02.947Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "AddNewFood.cs",
               "DocumentMoniker": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\Restuarant_POS\\Food\\AddNewFood.cs",
               "RelativeDocumentMoniker": "Restuarant_POS\\Food\\AddNewFood.cs",
               "ToolTip": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\Restuarant_POS\\Food\\AddNewFood.cs",
               "RelativeToolTip": "Restuarant_POS\\Food\\AddNewFood.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAkwCYAAAA9AAAA",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAjwFkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T15:06:43.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "AddNewFood.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\Restuarant_POS\\Food\\AddNewFood.cs",
               "RelativeDocumentMoniker": "Restuarant_POS\\Food\\AddNewFood.cs",
@@ -96,52 +86,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FoodForm.cs",
               "DocumentMoniker": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\Restuarant_POS\\Food\\FoodForm.cs",
               "RelativeDocumentMoniker": "Restuarant_POS\\Food\\FoodForm.cs",
-              "ToolTip": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\Restuarant_POS\\Food\\FoodForm.cs",
-              "RelativeToolTip": "Restuarant_POS\\Food\\FoodForm.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAcwBkAAAAmAAAA",
+              "ToolTip": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\Restuarant_POS\\Food\\FoodForm.cs*",
+              "RelativeToolTip": "Restuarant_POS\\Food\\FoodForm.cs*",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAxwHcAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T14:36:07.352Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "FoodForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\Restuarant_POS\\Food\\FoodForm.cs",
               "RelativeDocumentMoniker": "Restuarant_POS\\Food\\FoodForm.cs",
-              "ToolTip": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\Restuarant_POS\\Food\\FoodForm.cs [Design]",
-              "RelativeToolTip": "Restuarant_POS\\Food\\FoodForm.cs [Design]",
+              "ToolTip": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\Restuarant_POS\\Food\\FoodForm.cs [Design]*",
+              "RelativeToolTip": "Restuarant_POS\\Food\\FoodForm.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T14:28:53.184Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\Restuarant_POS\\MainForm.cs",
-              "RelativeDocumentMoniker": "Restuarant_POS\\MainForm.cs",
-              "ToolTip": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\Restuarant_POS\\MainForm.cs",
-              "RelativeToolTip": "Restuarant_POS\\MainForm.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBYAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T13:14:45.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\Restuarant_POS\\MainForm.cs",
-              "RelativeDocumentMoniker": "Restuarant_POS\\MainForm.cs",
-              "ToolTip": "C:\\Users\\Dev. Salty\\Desktop\\Wednesday\\Restuarant_POS\\Restuarant_POS\\MainForm.cs [Design]",
-              "RelativeToolTip": "Restuarant_POS\\MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T12:51:06.879Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -99,7 +99,8 @@ namespace Restuarant_POS.Food
         private void btnAdd_Click(object sender, EventArgs e)
         {
             InsertDatabase_();
+            this.DialogResult = DialogResult.OK;
             this.Close();
         }
-    }   
+    }
 }

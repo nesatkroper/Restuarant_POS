@@ -8,6 +8,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -25,6 +26,7 @@ namespace Restuarant_POS
         string curentImageName = null;
         string curentImagePath = null;
         string id_ = null;
+        string code_ = null;
 
         //THIS FUNC USE TO RELOAD DATA FROM DATABASE.
         public void Reload_()
@@ -94,12 +96,50 @@ namespace Restuarant_POS
             }
         }
 
+        void SearchData_()
+        {
+            //if (string.IsNullOrEmpty(txtSearch.Text))
+            //{
+            //    return;
+            //}
+            //else
+            //{
+            //    txtSearch.Text = code_;
+            //}
+
+            txtSearch.Text = code_;
+
+            SqlConnection conn = new SqlConnection(conString);
+            try
+            {
+                //(foo_id, foo_code, foo_name.foo_price, foo_pic)
+                string query_ = "SELECT * FROM Food_TB  WHERE foo_code = @code;";
+                conn.Open();
+                SqlCommand cmd = new SqlCommand(query_, conn);
+                cmd.Parameters.AddWithValue("@code", code_);
+                SqlDataReader dr = cmd.ExecuteReader();
+                if (dr.HasRows)
+                {
+                    while (dr.Read())
+                    {
+                        dgvData.Rows.Add(dr[0], dr[1], dr[2], dr[3], Image.FromFile(dr[4].ToString()));
+                    }
+                }
+                conn.Close();
+            }
+            catch (SqlException exp)
+            {
+                conn.Close();
+                MessageBox.Show(exp.Message);
+            }
+        }
+
         //THIS USE TO DELETE DATA IN DATABASE
         void deleteDatabase_()
         {
+            SqlConnection conn = new SqlConnection(conString);
             try
             {
-                SqlConnection conn = new SqlConnection(conString);
                 string query_ = "DELETE FROM Food_TB  WHERE foo_id = @id;";
                 conn.Open();
                 SqlCommand cmd = new SqlCommand(query_, conn);
@@ -109,6 +149,7 @@ namespace Restuarant_POS
             }
             catch (SqlException ex)
             {
+                conn.Close();
                 MessageBox.Show(ex.Message);
             }
         }
@@ -116,12 +157,7 @@ namespace Restuarant_POS
         private void FoodForm_Load(object sender, EventArgs e)
         {
             dgvData.Columns[0].Width = 100;
-            //dgvData.Columns[1].Width = 80;
-            //dgvData.Columns[2].Width = 120;
-            //dgvData.Columns[3].Width = 120;
-            //dgvData.Columns[4].Width = 80;
             dgvData.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(239, 120, 40);
-
             dgvData.RowTemplate.Height = 250;
             Reload_();
         }
@@ -129,12 +165,18 @@ namespace Restuarant_POS
         private void btnAdd_Click(object sender, EventArgs e)
         {
             AddNewFood addNewFood = new AddNewFood();
-            addNewFood.Show();
+            if (addNewFood.ShowDialog() == DialogResult.OK) Reload_();
         }
 
-        private void btnRefresh_Click(object sender, EventArgs e)
+        private void btnUpdate_Click(object sender, EventArgs e)
         {
-            Reload_();
+            UpdateForm updateForm = new UpdateForm();
+            if (updateForm.ShowDialog() == DialogResult.OK) Reload_();
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            SearchData_();
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
@@ -142,16 +184,17 @@ namespace Restuarant_POS
             SelectData_();
             deleteDatabase_();
             Reload_();
+            dgvData.Rows.Clear();
+            dgvData.Refresh();
             DeleteImage_();
-            curentImagePath = null;
+            //curentImagePath = null;
         }
 
         private void dgvData_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (dgvData.SelectedRows.Count > 0)
-            {
-                id_ = dgvData.SelectedRows[0].Cells[0].Value.ToString();
-            }
+            if (dgvData.SelectedRows.Count > 0) id_ = dgvData.SelectedRows[0].Cells[0].Value.ToString();
         }
+
+
     }
 }
